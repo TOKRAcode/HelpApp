@@ -23,7 +23,7 @@ def terminate_app():
 
 root = tk.Tk()
 root.title("Welcome")
-root.geometry("300x200")
+root.geometry("300x300")
 
 welcome_label = tk.Label(root, text="Welcome!", font=("Comic Sans MS", 20))
 welcome_label.pack(pady=10)
